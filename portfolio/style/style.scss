@@ -1,0 +1,128 @@
+* {
+    background-color: #153956;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navigation {
+    &__block {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        list-style-type: none;
+        align-items: center;
+
+        a {
+            margin-right: 50px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #f2a278;
+        }
+
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: flex-end;
+
+        a {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 32px;
+            padding: 5px;
+        }
+    }
+}
+
+.hero-info{
+    display: flex;
+    height: auto;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+
+    &__heading {
+        color: #f2a278;
+        font-size: 32px;
+    }
+
+    &__text-wrapper {
+        width: 70%;
+        font-size: 24px;
+    }
+
+    &__text-block {
+        color: #f5f2e8;
+        padding-right: 100px;
+    }
+
+    &__image-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10%;
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
+
+.button {
+    padding-left: 2rem;
+    position: absolute;
+
+    &__main {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        background-color: #f07b61;
+        color: #153956;
+        font-size: 21px;
+        font-weight: 700;
+        text-decoration: none;
+        z-index: 2;
+        transition: all calc(0.5s) ease-in-out;
+
+        &:hover {
+            transform: translate(-8px, 8px);
+        }
+    }
+
+    &__background{
+        top: -41px;
+        left: -8px;
+        width: 200px;
+        height: 50px;
+        background-color: #002e4d;
+        transform: translate(-18px, 15px);
+        z-index: 1;
+    }
+}
+
+
+.main {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    .about-block {
+        padding: 20px;
+        border: 7px #002e4d solid;
+
+        &__title {
+            color: #f2a278;
+            font-size: 24px;
+        }
+
+        &__about-text {
+            font-size: 18px;
+            padding-top: 30px;
+            color: #f5f2e8;
+        }
+    }
+}

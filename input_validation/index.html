@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="input-block">
+
+        <form class="container"> 
+            <input type="text"  required name="name" placeholder="Имя"  class="input__name"></input>
+            <input type="text"  required name="surname" placeholder="Фамилия" class="input__surname"></input>
+            <input type="email" name="email" required placeholder="Email" class="input__email"></input>
+            <input type="password" name="password" required placeholder="Пароль" class="input__pass"></input>
+            <input type="password" name="checkPassword" required placeholder="Подтверждение пароля" class="input__pass-check"></input>
+            <input type="date" name="dateOfBirth" required placeholder="Дата рождения" class="input__dob"></input>
+            <button class="button__done">done</button>
+        </form>
+
+        <div class="error-text">
+            <span class="error-text">Поле заполнено не корректно</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
